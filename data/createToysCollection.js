@@ -6,7 +6,7 @@ async function createToysCollection() {
     const clientInstance = await connectToDatabase();
     console.log("Connecté à MongoDB Atlas pour créer la collection 'toys'.");
 
-    const db = clientInstance.db('Pugs_Lovers'); // Remplacez par le nom de votre DB si nécessaire
+    const db = clientInstance.db('Pugs_Lovers');
     const toysCollection = db.collection('toys');
 
     const toyNames = [
@@ -35,7 +35,7 @@ async function createToysCollection() {
       _id: name.length,
       toyName: name,
       madeIn: 'France',
-      recommendedAge: Math.floor(Math.random() * 3) + 1, // âge recommandé aléatoire entre 1 et 3
+      recommendedAge: Math.floor(Math.random() * 3) + 1,
     }));
 
     const result = await toysCollection.insertMany(toysDocs);
