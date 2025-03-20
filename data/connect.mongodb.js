@@ -1,5 +1,5 @@
-require('dotenv').config();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+require("dotenv").config();
+const { MongoClient, ServerApiVersion } = require("mongodb");
 
 const uri = process.env.MONGODB_URI;
 
@@ -17,7 +17,7 @@ const client = new MongoClient(uri, {
  */
 async function connectToDatabase() {
   await client.connect();
-  console.log('Connected to MongoDB Atlas successfully!');
+  console.log("Connected to MongoDB Atlas successfully!");
   return client;
 }
 

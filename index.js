@@ -1,14 +1,14 @@
-const { connectToDatabase, client } = require('./data/connect.mongodb');
-const { runQueries } = require('./queries/step2.queries');
-const { runUpdates } = require('./queries/step3.updateQueries');
+const { connectToDatabase, client } = require("./data/connect.mongodb");
+const { runQueries } = require("./queries/step2.queries");
+const { runUpdates } = require("./queries/step3.updateQueries");
 const {
   updateReferenceAndAggregate,
-} = require('./queries/step4.referredQueries');
+} = require("./queries/step4.referredQueries");
 
 async function main() {
   try {
     const clientInstance = await connectToDatabase();
-    const db = clientInstance.db('Pugs_Lovers');
+    const db = clientInstance.db("Pugs_Lovers");
 
     // RUN les queries de recherches
     await runQueries(db);
@@ -16,10 +16,10 @@ async function main() {
     // RUN les UPDATES
     await runUpdates(db);
 
-    const collections = await db.listCollections({ name: 'toys' }).toArray();
+    const collections = await db.listCollections({ name: "toys" }).toArray();
     if (collections.length > 0) {
       console.log(
-        'La collection "toys" existe. Exécution de updateReferenceAndAggregate...',
+        'La collection "toys" existe. Exécution de updateReferenceAndAggregate...'
       );
       await updateReferenceAndAggregate(db);
     } else {
@@ -29,7 +29,7 @@ async function main() {
     console.error("Erreur lors de l'exécution du script:", error);
   } finally {
     await client.close();
-    console.log('\nConnexion fermée. Script terminé.');
+    console.log("\nConnexion fermée. Script terminé.");
   }
 }
 
