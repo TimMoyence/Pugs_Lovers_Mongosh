@@ -1,0 +1,122 @@
+[
+  {
+    "visitId": "VISIT001",
+    "pugId": "PUG001",
+    "date": "2023-01-05",
+    "reason": "Contrôle annuel",
+    "veterinarianName": "Dr. Martin",
+    "notes": "Bonne santé générale, petit surpoids."
+  },
+  {
+    "visitId": "VISIT002",
+    "pugId": "PUG002",
+    "date": "2023-02-10",
+    "reason": "Vaccination antirabique",
+    "veterinarianName": "Dr. Dupont",
+    "notes": "Vaccin à jour, RAS."
+  },
+  {
+    "visitId": "VISIT003",
+    "pugId": "PUG003",
+    "date": "2022-11-02",
+    "reason": "Blessure à la patte",
+    "veterinarianName": "Dr. Caron",
+    "notes": "Petite entorse, bandage appliqué."
+  },
+  {
+    "visitId": "VISIT004",
+    "pugId": "PUG004",
+    "date": "2022-10-15",
+    "reason": "Vermifuge",
+    "veterinarianName": "Dr. Lambert",
+    "notes": "Aucun souci particulier."
+  },
+  {
+    "visitId": "VISIT005",
+    "pugId": "PUG005",
+    "date": "2023-03-20",
+    "reason": "Vaccin Leptospirose",
+    "veterinarianName": "Dr. Nguyen",
+    "notes": "Rappel effectué, poids stable."
+  },
+  {
+    "visitId": "VISIT006",
+    "pugId": "PUG006",
+    "date": "2022-05-25",
+    "reason": "Contrôle dentaire",
+    "veterinarianName": "Dr. Bernard",
+    "notes": "Légère plaque dentaire."
+  },
+  {
+    "visitId": "VISIT007",
+    "pugId": "PUG007",
+    "date": "2023-01-11",
+    "reason": "Problème respiratoire",
+    "veterinarianName": "Dr. Lambert",
+    "notes": "Traitement prescrit, surveiller la respiration."
+  },
+  {
+    "visitId": "VISIT008",
+    "pugId": "PUG008",
+    "date": "2023-03-01",
+    "reason": "Douleurs abdominales",
+    "veterinarianName": "Dr. Garcia",
+    "notes": "Possible indigestion, régime léger conseillé."
+  },
+  {
+    "visitId": "VISIT009",
+    "pugId": "PUG009",
+    "date": "2022-08-10",
+    "reason": "Vaccin rage",
+    "veterinarianName": "Dr. Moreau",
+    "notes": "RAS, chien un peu stressé."
+  },
+  {
+    "visitId": "VISIT010",
+    "pugId": "PUG010",
+    "date": "2022-12-05",
+    "reason": "Otite légère",
+    "veterinarianName": "Dr. Dupont",
+    "notes": "Gouttes auriculaires prescrites."
+  },
+  {
+    "visitId": "VISIT011",
+    "pugId": "PUG011",
+    "date": "2021-09-22",
+    "reason": "Vaccin piroplasmose",
+    "veterinarianName": "Dr. Martin",
+    "notes": "Effet secondaire possible, surveiller 48h."
+  },
+  {
+    "visitId": "VISIT012",
+    "pugId": "PUG012",
+    "date": "2023-02-14",
+    "reason": "Contrôle post-opératoire",
+    "veterinarianName": "Dr. Lambert",
+    "notes": "Bonne cicatrisation, douleurs gérables."
+  },
+  {
+    "visitId": "VISIT013",
+    "pugId": "PUG013",
+    "date": "2022-09-27",
+    "reason": "Consultation de routine",
+    "veterinarianName": "Dr. Nguyen",
+    "notes": "Examen complet, RAS."
+  },
+  {
+    "visitId": "VISIT014",
+    "pugId": "PUG014",
+    "date": "2022-06-18",
+    "reason": "Perte d’appétit",
+    "veterinarianName": "Dr. Bernard",
+    "notes": "Alimentation modifiée, à surveiller."
+  },
+  {
+    "visitId": "VISIT015",
+    "pugId": "PUG015",
+    "date": "2023-01-29",
+    "reason": "Vaccin rage",
+    "veterinarianName": "Dr. Moreau",
+    "notes": "Légèrement peureux, besoin de réconfort."
+  }
+]

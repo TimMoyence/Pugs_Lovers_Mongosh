@@ -1,0 +1,231 @@
+[
+  {
+    "pugId": "PUG001",
+    "name": "Moustache",
+    "dateOfBirth": "2021-05-12",
+    "owner": {
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "city": "Lyon"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2022-01-10" },
+      { "vaccineName": "Leptospirose", "date": "2022-06-15" }
+    ],
+    "weight": 8,
+    "description": "Carlin très joueur, adore les promenades."
+  },
+  {
+    "pugId": "PUG002",
+    "name": "Bijou",
+    "dateOfBirth": "2020-09-01",
+    "owner": {
+      "firstName": "Marie",
+      "lastName": "Martin",
+      "city": "Paris"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2021-05-20" }
+    ],
+    "weight": 7,
+    "description": "Affectueux, aime dormir sur le canapé."
+  },
+  {
+    "pugId": "PUG003",
+    "name": "Grognon",
+    "dateOfBirth": "2019-03-10",
+    "owner": {
+      "firstName": "Paul",
+      "lastName": "Garcia",
+      "city": "Bordeaux"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2020-03-15" },
+      { "vaccineName": "Leptospirose", "date": "2021-07-30" }
+    ],
+    "weight": 9,
+    "description": "Un peu grognon le matin, mais adore les enfants."
+  },
+  {
+    "pugId": "PUG004",
+    "name": "Pépito",
+    "dateOfBirth": "2022-01-25",
+    "owner": {
+      "firstName": "Lucie",
+      "lastName": "Moreau",
+      "city": "Marseille"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2022-10-15" }
+    ],
+    "weight": 6,
+    "description": "Très jeune et plein d’énergie, raffole des friandises."
+  },
+  {
+    "pugId": "PUG005",
+    "name": "Winston",
+    "dateOfBirth": "2020-04-18",
+    "owner": {
+      "firstName": "Hélène",
+      "lastName": "Carpentier",
+      "city": "Nantes"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2021-04-10" },
+      { "vaccineName": "Piroplasmose", "date": "2021-09-12" }
+    ],
+    "weight": 10,
+    "description": "Carlin très calme, aime les coussins moelleux."
+  },
+  {
+    "pugId": "PUG006",
+    "name": "Câline",
+    "dateOfBirth": "2018-11-03",
+    "owner": {
+      "firstName": "Thomas",
+      "lastName": "Mallet",
+      "city": "Toulouse"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2019-01-10" }
+    ],
+    "weight": 10,
+    "description": "Besoin constant d’attention, adore les caresses."
+  },
+  {
+    "pugId": "PUG007",
+    "name": "Mirabelle",
+    "dateOfBirth": "2019-07-22",
+    "owner": {
+      "firstName": "Sophie",
+      "lastName": "Bernard",
+      "city": "Metz"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2020-02-14" },
+      { "vaccineName": "Leptospirose", "date": "2020-08-01" }
+    ],
+    "weight": 8,
+    "description": "Aime courir dans le jardin, un peu craintive avec les inconnus."
+  },
+  {
+    "pugId": "PUG008",
+    "name": "Loulou",
+    "dateOfBirth": "2020-12-15",
+    "owner": {
+      "firstName": "François",
+      "lastName": "Delattre",
+      "city": "Lille"
+    },
+    "vaccinations": [],
+    "weight": 7,
+    "description": "Très joueur, adore les peluches qui couinent."
+  },
+  {
+    "pugId": "PUG009",
+    "name": "Papouille",
+    "dateOfBirth": "2018-05-05",
+    "owner": {
+      "firstName": "Julie",
+      "lastName": "Morin",
+      "city": "Rouen"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2019-05-10" }
+    ],
+    "weight": 11,
+    "description": "Grand gourmand, réclame toujours plus de croquettes."
+  },
+  {
+    "pugId": "PUG010",
+    "name": "Fifi",
+    "dateOfBirth": "2021-07-11",
+    "owner": {
+      "firstName": "Camille",
+      "lastName": "Robert",
+      "city": "Rennes"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2022-01-20" }
+    ],
+    "weight": 7,
+    "description": "Très sociable, adore les autres chiens."
+  },
+  {
+    "pugId": "PUG011",
+    "name": "Léon",
+    "dateOfBirth": "2019-01-29",
+    "owner": {
+      "firstName": "Xavier",
+      "lastName": "Fabre",
+      "city": "Grenoble"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2019-07-03" },
+      { "vaccineName": "Piroplasmose", "date": "2020-08-15" }
+    ],
+    "weight": 9,
+    "description": "Aime faire la sieste sur le canapé, ronfle beaucoup."
+  },
+  {
+    "pugId": "PUG012",
+    "name": "Paco",
+    "dateOfBirth": "2018-10-17",
+    "owner": {
+      "firstName": "Nathalie",
+      "lastName": "Leroy",
+      "city": "Strasbourg"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2019-05-22" }
+    ],
+    "weight": 8,
+    "description": "Très énergique, adore chasser les balles."
+  },
+  {
+    "pugId": "PUG013",
+    "name": "Fidji",
+    "dateOfBirth": "2021-02-02",
+    "owner": {
+      "firstName": "Bruno",
+      "lastName": "Petit",
+      "city": "Dijon"
+    },
+    "vaccinations": [
+      { "vaccineName": "Leptospirose", "date": "2021-09-12" }
+    ],
+    "weight": 6,
+    "description": "Carlin calme, apprécie les trajets en voiture."
+  },
+  {
+    "pugId": "PUG014",
+    "name": "Ratatouille",
+    "dateOfBirth": "2018-06-09",
+    "owner": {
+      "firstName": "Isabelle",
+      "lastName": "Roux",
+      "city": "Nice"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2019-02-11" },
+      { "vaccineName": "Piroplasmose", "date": "2020-03-21" }
+    ],
+    "weight": 12,
+    "description": "Un peu en surpoids, réclame souvent à manger."
+  },
+  {
+    "pugId": "PUG015",
+    "name": "Bouchon",
+    "dateOfBirth": "2019-09-21",
+    "owner": {
+      "firstName": "Maxime",
+      "lastName": "Lambert",
+      "city": "Tours"
+    },
+    "vaccinations": [
+      { "vaccineName": "Rage", "date": "2020-02-25" }
+    ],
+    "weight": 8,
+    "description": "Se cache souvent sous la table, un peu peureux."
+  }
+]
